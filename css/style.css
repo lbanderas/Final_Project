@@ -1,0 +1,97 @@
+/* font-family: 'Nanum Myeongjo', serif;
+font-family: 'Playfair Display', serif; */
+body {
+    background-color:#3b0400;
+}
+h1,h2,h3,p {
+    color: white;
+}
+.navbar {
+    background-color: #3b0400;
+    height: 300px;
+    width: 100%;
+    color: white;
+    padding-top: 200px;
+}  
+.nav-link {
+    font-size: 40px;
+    padding: 60px;
+    text-align: center;
+}
+li {
+    display: inline; 
+}  
+a:link, a:visited {
+    background-color:white;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #3b0400;
+}
+a:hover {
+    background-color: gray;
+    color: white;
+}    
+.phrase {
+    width: 100%;
+    background-color: #3b0400;
+    color: white;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.hero {
+    height: 900px;
+    width: 100%;
+}
+footer {
+    background-color: #3b0400;
+    color: white;
+    font-size: 17px;
+    font-family: 'Nanum Myeongjo', serif;
+    padding-top: 50px;
+    text-align: center;
+}
+.fa {
+    background-color: white;
+    color: #3b0400;
+    padding-bottom: 10px;
+}
+/* About Page */
+.img, iframe {
+    padding-left: 80px;
+}
+#clickimage, a:link {
+    background-color:  #3b0400;
+}
+/* Contact Page */
+.contact, .allform {
+    text-align: center;
+}
+
+}
+p {
+    font-size: 20px;
+}
+.form {
+    border-radius: 5px;
+    background-color: gray;
+    padding: 20px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #3b0400;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
