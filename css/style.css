@@ -27,10 +27,13 @@ a:link, a:visited {
     text-decoration: none;
     color: #3b0400;
 }
+.email, a:link {
+    color: white;
+}
 a:hover {
     background-color: gray;
     color: white;
-}    
+}   
 .phrase {
     width: 100%;
     background-color: #3b0400;
@@ -39,9 +42,28 @@ a:hover {
     font-family: 'Playfair Display', serif;
     text-align: center;
 }
-.hero {
-    height: 900px;
+.homebody, html {
+    height: 100%;
+    margin: 0;
+}
+.herodiv {
+    background-image: url("/img/planeandmap.jpg");
+    height: 50%;
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.herotextcolor {
+    color: #3b0400;
 }
 footer {
     background-color: #3b0400;
@@ -57,6 +79,7 @@ footer {
     padding-bottom: 10px;
 }
 /* About Page */
+
 .img, iframe {
     padding-left: 80px;
 }
@@ -64,10 +87,9 @@ footer {
     background-color:  #3b0400;
 }
 /* Contact Page */
+
 .contact, .allform {
     text-align: center;
-}
-
 }
 p {
     font-size: 20px;
